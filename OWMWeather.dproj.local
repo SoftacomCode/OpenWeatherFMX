@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.220,=C:\Users\TIGER\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.462,C:\Users\TIGER\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\TIGER\Desktop\OWMWeather\Main.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.366,=C:\Users\TIGER\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.027,C:\Users\TIGER\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\TIGER\Desktop\OWMWeather\OWMWeather.dproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.462,C:\Users\TIGER\Documents\Embarcadero\Studio\Projects\Unit1.fmx=C:\Users\TIGER\Desktop\OWMWeather\Main.fmx</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<NoProfile Android="Android_Accelerated_x86_Oreo"/>
+	</ActiveMobileDevice>
+</BorlandProject>
