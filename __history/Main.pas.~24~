@@ -26,9 +26,9 @@ type
     { Private declarations }
     FOWMRequest: string;
     FIconName: string;
-    FTask1, FTask2: ITask;
-    FOWMUrl: string;
-    FOWMApiKey: string;
+    FTask1,FTask2: ITask;
+    FOWMUrl : string;
+    FOWMApiKey :string;
   public
     { Public declarations }
   end;
@@ -49,6 +49,7 @@ var
     Resp: TMemoryStream;
     Response: TStringStream;
 begin
+    FormatSettings.DecimalSeparator := '.';
     JSON := nil;
     JSONMain := nil;
     JSONDetail := nil;
@@ -57,7 +58,7 @@ begin
     Response := nil;
     Memo1.Lines.Clear;
     City := Edit1.Text;
-    FOWMRequest := FOWMUrl + City + '&appid=' + FOWMApiKey;
+    FOWMrequest := FOWMUrl + City +'&appid=' + FOWMApiKey;
     FTask1 := TTask.Run(
     procedure
     begin
@@ -73,13 +74,13 @@ begin
           JSONCountry := TJSONObject(JSON.Get('sys').JsonValue);
           Kelvins := Double.Parse(JSONMain.GetValue('temp').Value);
           Degrees := Kelvins - 273.15;
-          Memo1.Lines.Add('Temp: ' + FloatToStrF(Degrees,ffGeneral,3,3) + ' °Ñ');
+          Memo1.Lines.Add('Temp: ' + FloatToStrF(degrees,ffGeneral,3,3)+' °Ñ');
           Memo1.Lines.Add('Country: ' + JSONCountry.GetValue('country').Value);
-          Memo1.Lines.Add('City: ' + JSON.GetValue('name').Value);
-          Memo1.Lines.Add('Clouds: ' + (TJSONPair(TJSONObject(JSONDetail.Items[0])
+          Memo1.Lines.Add('City: '+ JSON.GetValue('name').Value);
+          Memo1.Lines.Add('Clouds: '+ (TJSONPair(TJSONObject(JSONDetail.Items[0])
             .Get('description')).JsonValue.Value));
-          Memo1.Lines.Add('Humidity: ' + JSONMain.GetValue('humidity').Value +' %');
-          Memo1.Lines.Add('Atmospheric pressure: ' + JSONMain.GetValue('pressure').
+          Memo1.Lines.Add('Humidity: '+ JSONMain.GetValue('humidity').Value+' %');
+          Memo1.Lines.Add('Atmospheric pressure: '+ JSONMain.GetValue('pressure').
             Value+' hPa');
           FIconName := TJSONPair(TJSONObject(JSONDetail.Items[0]).Get('icon')).
             JsonValue.Value;
@@ -97,7 +98,7 @@ begin
       try
         Resp := TMemoryStream.Create;
         NetHttpClient1.Get('http://openweathermap.org/img/wn/' +
-          FIconName + '@2x.png', Resp);
+          FIconName+'@2x.png', Resp);
         TThread.Synchronize(nil,
         procedure
         begin

@@ -1,13 +1,31 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <BorlandProject>
 	<Transactions>
-    <Transaction>1899.12.30 00:00:00.000.220,=C:\Users\TIGER\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.462,C:\Users\TIGER\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\TIGER\Desktop\OWMWeather\Main.pas</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.366,=C:\Users\TIGER\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.027,C:\Users\TIGER\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\TIGER\Desktop\OWMWeather\OWMWeather.dproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.250,=G:\КИТ\ППИМС_лекция_1\XamarinForms+Delphi\Net_OWMWeatherRes\pic\03n.png</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.297,=G:\КИТ\ППИМС_лекция_1\XamarinForms+Delphi\Net_OWMWeatherRes\pic\09d.png</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.363,=G:\КИТ\ППИМС_лекция_1\XamarinForms+Delphi\Net_OWMWeatherRes\pic\11d.png</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.394,=G:\КИТ\ППИМС_лекция_1\XamarinForms+Delphi\Net_OWMWeatherRes\pic\11n.png</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.266,=G:\КИТ\ППИМС_лекция_1\XamarinForms+Delphi\Net_OWMWeatherRes\pic\04d.png</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.488,=G:\КИТ\ППИМС_лекция_1\XamarinForms+Delphi\Net_OWMWeatherRes\pic\50n.png</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.235,=G:\КИТ\ППИМС_лекция_1\XamarinForms+Delphi\Net_OWMWeatherRes\pic\02n.png</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.250,=G:\КИТ\ППИМС_лекция_1\XamarinForms+Delphi\Net_OWMWeatherRes\pic\03d.png</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.313,=G:\КИТ\ППИМС_лекция_1\XamarinForms+Delphi\Net_OWMWeatherRes\pic\09n.png</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.235,=G:\КИТ\ППИМС_лекция_1\XamarinForms+Delphi\Net_OWMWeatherRes\pic\02d.png</Transaction>
     <Transaction>1899.12.30 00:00:00.000.462,C:\Users\TIGER\Documents\Embarcadero\Studio\Projects\Unit1.fmx=C:\Users\TIGER\Desktop\OWMWeather\Main.fmx</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.347,=G:\КИТ\ППИМС_лекция_1\XamarinForms+Delphi\Net_OWMWeatherRes\pic\10n.png</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.410,=G:\КИТ\ППИМС_лекция_1\XamarinForms+Delphi\Net_OWMWeatherRes\pic\13d.png</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.457,=G:\КИТ\ППИМС_лекция_1\XamarinForms+Delphi\Net_OWMWeatherRes\pic\50d.png</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.204,=G:\КИТ\ППИМС_лекция_1\XamarinForms+Delphi\Net_OWMWeatherRes\pic\01d.png</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.425,=G:\КИТ\ППИМС_лекция_1\XamarinForms+Delphi\Net_OWMWeatherRes\pic\13n.png</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.282,=G:\КИТ\ППИМС_лекция_1\XamarinForms+Delphi\Net_OWMWeatherRes\pic\04n.png</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.331,=G:\КИТ\ППИМС_лекция_1\XamarinForms+Delphi\Net_OWMWeatherRes\pic\10d.png</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.027,C:\Users\TIGER\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\TIGER\Desktop\OWMWeather\OWMWeather.dproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.220,=C:\Users\TIGER\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.366,=C:\Users\TIGER\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.462,C:\Users\TIGER\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\TIGER\Desktop\OWMWeather\Main.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.219,=G:\КИТ\ППИМС_лекция_1\XamarinForms+Delphi\Net_OWMWeatherRes\pic\01n.png</Transaction>
   </Transactions>
 	<ActiveMobileDevice>
-		<NoProfile Android="Android_Accelerated_x86_Oreo"/>
+		<NoProfile Android=""/>
 	</ActiveMobileDevice>
 </BorlandProject>

@@ -4,7 +4,7 @@ object Form1: TForm1
   Caption = 'Form1'
   ClientHeight = 480
   ClientWidth = 528
-  Fill.Color = claPalegreen
+  Fill.Color = claThistle
   Fill.Kind = Solid
   Padding.Left = 2.000000000000000000
   Padding.Top = 2.000000000000000000
@@ -25,12 +25,10 @@ object Form1: TForm1
     TintColor = claSteelblue
     object Label1: TLabel
       Align = Center
-      StyledSettings = [Family]
+      StyledSettings = [Family, Size, Style]
       Size.Width = 218.000000000000000000
       Size.Height = 23.000000000000000000
       Size.PlatformDefault = False
-      TextSettings.Font.Size = 16.000000000000000000
-      TextSettings.Font.StyleExt = {00070000000000000004000000}
       TextSettings.FontColor = claCrimson
       TextSettings.HorzAlign = Center
       Text = 'WeatherApp'
@@ -39,7 +37,7 @@ object Form1: TForm1
   end
   object btnGetWeather: TButton
     Align = Bottom
-    StyledSettings = [Family]
+    StyledSettings = [Family, Size, Style]
     Position.X = 2.000000000000000000
     Position.Y = 434.000000000000000000
     Size.Width = 524.000000000000000000
@@ -47,8 +45,6 @@ object Form1: TForm1
     Size.PlatformDefault = False
     TabOrder = 1
     Text = 'Get Weather'
-    TextSettings.Font.Size = 16.000000000000000000
-    TextSettings.Font.StyleExt = {00070000000000000004000000}
     TextSettings.FontColor = claBrown
     TextSettings.Trimming = None
     TintColor = claTeal
@@ -67,17 +63,15 @@ object Form1: TForm1
         item
         end>
       Align = Client
-      Margins.Bottom = 10.000000000000000000
       Size.Width = 524.000000000000000000
-      Size.Height = 162.000000000000000000
+      Size.Height = 192.000000000000000000
       Size.PlatformDefault = False
     end
     object Memo1: TMemo
       Touch.InteractiveGestures = [Pan, LongTap, DoubleTap]
       DataDetectorTypes = []
       Align = Top
-      Margins.Bottom = 10.000000000000000000
-      Position.Y = 42.000000000000000000
+      Position.Y = 32.000000000000000000
       Size.Width = 524.000000000000000000
       Size.Height = 129.000000000000000000
       Size.PlatformDefault = False
@@ -89,8 +83,7 @@ object Form1: TForm1
       Touch.InteractiveGestures = [LongTap, DoubleTap]
       Align = Top
       TabOrder = 2
-      Text = 'Berlin'
-      Margins.Bottom = 10.000000000000000000
+      Text = 'Kiev'
       Size.Width = 524.000000000000000000
       Size.Height = 32.000000000000000000
       Size.PlatformDefault = False
@@ -98,7 +91,7 @@ object Form1: TForm1
   end
   object Label2: TLabel
     Align = Top
-    StyledSettings = [Family]
+    StyledSettings = [Family, Size, Style]
     Margins.Left = 4.000000000000000000
     Margins.Top = 4.000000000000000000
     Margins.Right = 4.000000000000000000
@@ -108,8 +101,6 @@ object Form1: TForm1
     Size.Width = 516.000000000000000000
     Size.Height = 23.000000000000000000
     Size.PlatformDefault = False
-    TextSettings.Font.Size = 16.000000000000000000
-    TextSettings.Font.StyleExt = {00070000000000000004000000}
     TextSettings.FontColor = claBlueviolet
     Text = 'Select City:'
     TabOrder = 3
@@ -118,6 +109,9 @@ object Form1: TForm1
     ProtocolVersion = HTTP_1_0
     RedirectsWithGET = [Post301, Post302, Post303]
     AllowCookies = False
+    Accept = 'application/json; q=1,'
+    AcceptCharSet = 'UTF-8'
+    ContentType = 'application/json'
     UserAgent = 'Embarcadero URI Client/1.0'
     PreemptiveAuthentication = True
     Left = 442

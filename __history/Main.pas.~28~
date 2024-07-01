@@ -73,7 +73,7 @@ begin
           JSONCountry := TJSONObject(JSON.Get('sys').JsonValue);
           Kelvins := Double.Parse(JSONMain.GetValue('temp').Value);
           Degrees := Kelvins - 273.15;
-          Memo1.Lines.Add('Temp: ' + FloatToStrF(Degrees,ffGeneral,3,3) + ' °Ñ');
+          Memo1.Lines.Add('Temp: ' + FloatToStrF(degrees,ffGeneral,3,3) + ' °Ñ');
           Memo1.Lines.Add('Country: ' + JSONCountry.GetValue('country').Value);
           Memo1.Lines.Add('City: ' + JSON.GetValue('name').Value);
           Memo1.Lines.Add('Clouds: ' + (TJSONPair(TJSONObject(JSONDetail.Items[0])

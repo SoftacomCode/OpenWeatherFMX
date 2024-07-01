@@ -1,6 +1,6 @@
 program OWMWeather;
 
-
+{$R *.dres}
 
 uses
   System.StartUpCopy,
